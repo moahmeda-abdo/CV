@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+
+  font-size:20px;
+}
+
+.my_logo{
+max-width: 40px;
+filter: drop-shadow(2px 2px 1px #1a1a1e);
+}
+
+.sticky{
+z-index: 11000;
+  position: sticky;
+  top: 0;
+}
+
+.main-title {
+    text-transform: uppercase;
+    margin: 60px auto 40px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+}
+.main-title:hover {
+color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #3182ce;
+    background-color: #3182ce;
+}
+.icon{
+font-size: 70px;
+}
+.icon:hover{
+color: #3182ce;
+}
